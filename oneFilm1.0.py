@@ -20,6 +20,7 @@ lista_generos = ['https://www.imdb.com/list/ls068082370/?sort=list_order,asc&st_
                  'https://www.imdb.com/list/ls066247137/?sort=list_order,asc&st_dt=&mode=detail&page=',
                  'https://www.imdb.com/list/ls008594849/?sort=list_order,asc&st_dt=&mode=detail&page=',
                  'https://www.imdb.com/list/ls094594132/?sort=list_order,asc&st_dt=&mode=detail&page=',
+                 'https://www.imdb.com/list/ls099530931/?sort=list_order,asc&st_dt=&mode=detail&page=',
                  'Sair']
 
 sair = False
@@ -27,7 +28,7 @@ while not sair:
     message = "Selecione um gênero de filme"
     title = "oneFilm1.0"
     choices = ['Todos', 'Comédia', 'Sci-fi', 'Horror', 'Romance', 'Ação', 'Suspense', 'Drama', 'Mistério', 'Crime',
-               'Animação', 'Aventura', 'Fantasia', 'Comédia Romântica', 'Dorama', '-------------------------------------------------Sair---------------------------------------------------------']
+               'Animação', 'Aventura', 'Fantasia', 'Comédia Romântica', 'Dorama', 'Anime', '-------------------------------------------------Sair---------------------------------------------------------']
     output = choicebox(message, title, choices)
     if output == '-------------------------------------------------Sair---------------------------------------------------------':
         exit()
